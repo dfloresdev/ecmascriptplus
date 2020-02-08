@@ -1,0 +1,11 @@
+{
+  "name": "ecmas6",
+  "version": "1.0.0",
+  "description": "Probando las funcionalidades de ecmas+6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Flores",
+  "license": "MIT"
+}
