@@ -110,4 +110,17 @@ let especie = {
 
 let { ...all } = especie;
 
-console.log(planeta);
+console.log(all);
+
+let newEspecie = {
+  ...especie,
+  country: 'MX'
+};
+
+console.log(newEspecie);
+
+const array = [1, 2, 3, [1, 2, 3, [1, 2, 3]]];
+console.log(array.flat(2));
+
+const arrayMap = array.flat(2).flatMap(item => item * 2);
+console.log(arrayMap);
